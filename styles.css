@@ -16,4 +16,76 @@
     --faq-pad-inner: 8vw;
     --faq-pad-outer: 7vw;
   }
-  
+
+/* Gen Styles  */
+
+.body {
+  font-family: var(--font-1);
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+.section-header h2 {
+  font-weight: 300;
+}
+
+.section-header span {
+  font-weight: bold;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: var(--opacity-value);
+}
+
+/* Header / Hero Styles */
+
+.header {
+  background-image: url("images/pic_1.jpg");
+  background-color: var(--background-color);
+  max-width: 100%;
+  height: auto;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header .navbar-line1 {
+  background-color: var(--color-white);
+  height: var(--nav-line-height);
+  width: 20px;
+  display: block;
+}
+.header .navbar-line2 {
+  background-color: var(--color-white);
+  height: var(--nav-line-height);
+  width: 13px;
+  display: block;
+}
+.header .navbar-line3 {
+  background-color: var(--color-white);
+  height: var(--nav-line-height);
+  width: 18px;
+  display: block;
+}
+
+.header .nav-link {
+  font-size: 12px;
+}
+
+.header .nav-link:hover {
+  color: var(--main-color) !important;
+}
+
+.header .nav-link:after {
+  content: "";
+  display: block;
+  background-color: var(--color-white);
+  width: 0;
+  height: 2px;
+  top: 4px;
+  position: relative;
+  transition: 180ms;
+}
