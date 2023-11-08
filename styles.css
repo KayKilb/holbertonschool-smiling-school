@@ -740,7 +740,7 @@
   }
 }
 
-/* SEARCH SECTION  */
+/* SEARCH */
 
 .search {
   background-color: var(--main-color);
@@ -786,7 +786,7 @@
   opacity: 0.5;
   font-weight: 300;
   font-size: 23px;
-  transform: translateY(2px);
+  transform: translateY(2px); /* shifting down 2 pixels*/
 }
 
 .search .form-control.search-text-area:focus {
@@ -845,7 +845,7 @@
   }
 }
 
-/* RESULTS SECTION  */
+/* RESULTS */
 .results .section-title {
   font-size: 16px;
   line-height: 20px;
