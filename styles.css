@@ -2,9 +2,9 @@
     --main-color: #c271ff;
     --opacity-value: 0.9;
     --background-color: #071629;
-    --font-family-1: "Source Sans Pro", sans-serif;
-    --font-family-2: "Spin Cycle OT", sans-serif;
-    --font-family-3: Coiny, sans-serif;
+    --font-1: "Source Sans Pro", sans-serif; /* changed to font- from font-family- */
+    --font-2: "Spin Cycle OT", sans-serif;
+    --font-3: Coiny, sans-serif;
     --color-white: #ffffff;
     --nav-line-height: 2px;
     --pros-padding: 62px;
