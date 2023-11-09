@@ -313,6 +313,18 @@
 
 .popular .card {
   padding-bottom: 87px;
+  position: relative;
+}
+
+.popular .card .play-button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .section .card-img-overlay {
